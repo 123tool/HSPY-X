@@ -8,21 +8,24 @@
 - **Offline Exploit-DB:** Mencari exploit berdasarkan versi software secara instan dari database lokal.
 - **Auto Report:** Hasil scan langsung tersimpan otomatis sebagai file `.txt` di folder Download (Android/Linux/Windows).
 
-📦 Instalasi di Termux
-​Buka Termux dan jalankan perintah berikut:
+### 📦 Instalasi di Termux
+​Buka Termux dan jalankan perintah berikut :
 
 # Update & Setup Storage
+```bash
 pkg update && pkg upgrade -y
 termux-setup-storage
-
+```
 # Install Dependency
+```bash
 pkg install git python -y
 pip install requests shodan colorama googlesearch-python pandas
-
+```
 # Clone Repository
+```bash
 git clone [https://github.com/USERNAME_KAMU/spy-e-recon.git](https://github.com/USERNAME_KAMU/spy-e-recon.git)
 cd spy-e-recon
-
+```
 # Setup API Key
 # Edit file config.json dan masukkan Shodan API Key kamu
 nano config.json
