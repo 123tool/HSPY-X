@@ -11,17 +11,17 @@
 ### 📦 Instalasi di Termux
 ​Buka Termux dan jalankan perintah berikut :
 
-# Update & Setup Storage
+## Update & Setup Storage
 ```bash
 pkg update && pkg upgrade -y
 termux-setup-storage
 ```
-# Install Dependency
+## Install Dependency
 ```bash
 pkg install git python -y
 pip install requests shodan colorama googlesearch-python pandas
 ```
-# Clone Repository
+## Clone Repository
 ```bash
 git clone [https://github.com/123tool/HSPY-X.git]
 cd HSPY-X
@@ -33,7 +33,7 @@ cp config.json.example config.json
 nano config.json
 # Masukkan API Key Shodan kamu di situ, lalu tekan CTRL+X, Y, ENTER untuk save.
 ```
-# Atau Setup API Key Biasa
+## Atau Setup API Key Biasa
 ```bash
 Edit file config.json dan masukkan Shodan API Key kamu
 ```
@@ -43,11 +43,11 @@ Edit file config.json dan masukkan Shodan API Key kamu
 ```
 python main.py -t target.com
 ```
-# Cari Exploit Berdasarkan Nama Software
+## Cari Exploit Berdasarkan Nama Software
 ```
 python main.py -s "WordPress 6.0"
 ```
-# Kombinasi Keduanya
+## Kombinasi Keduanya
 ```
 python main.py -t target.com -s "Apache 2.4"
 ```
