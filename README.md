@@ -26,7 +26,14 @@ pip install requests shodan colorama googlesearch-python pandas
 git clone [https://github.com/123tool/HSPY-X.git]
 cd HSPY-X
 ```
-# Setup API Key
+## Setup Sebelum Running
+Karena kita nggak upload API Key (demi keamanan), kamu harus buat filenya dulu :
+```
+cp config.json.example config.json
+nano config.json
+# Masukkan API Key Shodan kamu di situ, lalu tekan CTRL+X, Y, ENTER untuk save.
+```
+# Atau Setup API Key Biasa
 ```bash
 Edit file config.json dan masukkan Shodan API Key kamu
 ```
