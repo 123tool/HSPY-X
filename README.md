@@ -53,8 +53,7 @@ python main.py -t target.com -s "Apache 2.4"
 ```
 
 ## 📝 Catatan Report
-​Hasil laporan akan tersimpan di :
-​Android (Termux) :
+​Hasil laporan akan tersimpan di Android (Termux) :
 ```
 /sdcard/Download/recon_target_xxxx.txt
 ​Linux/Windows: Folder yang sama dengan script.
