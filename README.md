@@ -8,7 +8,7 @@
 - **Offline Exploit-DB:** Mencari exploit berdasarkan versi software secara instan dari database lokal.
 - **Auto Report:** Hasil scan langsung tersimpan otomatis sebagai file `.txt` di folder Download (Android/Linux/Windows).
 
-### 📦 Instalasi di Termux
+## 📦 Instalasi di Termux
 ​Buka Termux dan jalankan perintah berikut :
 
 ## Update & Setup Storage
@@ -39,7 +39,7 @@ Edit file config.json dan masukkan Shodan API Key kamu
 ```
 ## 📖 Cara Penggunaan
 ​Jalankan tool dengan perintah :
-# Scan Domain Target
+## Scan Domain Target
 ```
 python main.py -t target.com
 ```
