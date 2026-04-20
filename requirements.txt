@@ -1,0 +1,5 @@
+requests
+shodan
+colorama
+googlesearch-python
+pandas
